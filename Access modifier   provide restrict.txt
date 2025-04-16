@@ -1,0 +1,32 @@
+                                                           Access modifier :  provide /restrict access
+                                                                                              |
+                                                                                              |
+                                                                                              |
+
+
+  within                         public                                   private                       protected                             default(package private)
+
+
+class                      y                                                y                                  y                                               y
+
+
+
+Package               y                                            n                                     y                                                   y
+
+
+
+inherit 
+(subclass )             y                                             n                                     y                                                 if subclass within package(y)
+                                                                                                                                                                           if package diff.(n)
+
+
+
+
+
+
+
+
+
+
+
+
